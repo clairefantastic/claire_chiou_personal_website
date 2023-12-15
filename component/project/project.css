@@ -1,0 +1,34 @@
+.project__container{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 25% 70%;
+    gap: 5%;
+}
+
+
+.demo__gif__img{
+    padding: 10%;
+}
+
+.project__content{
+    background-color: var(--color-bg);
+    border-radius: 2rem;
+    padding: 3rem;
+    margin-bottom: 10%;
+}
+
+.skills__tag{
+    display: flex;
+    gap: 1rem;
+}
+
+.project__content > p{
+    color: var(--color-bg-variant);
+}
+
+
+
+.skills__detail{
+    color: var(--color-primary);
+}
